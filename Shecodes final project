@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positives of being a gamer girl</title>
+    <style>
+      body {
+        background: #09090a;
+      }
+      h1 {
+        text-align: center;
+        color: #720000;
+        margin: 10px 0 0;
+        line-height: 1px;
+        font-size: 40px;
+      }
+      h2 {
+        text-align: center;
+        padding: 15px;
+        font-size: 18px;
+        border-radius: 4px;
+        color: #d8f2c0;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        border-radius: 10px;
+      }
+
+      p {
+        line-height: 2;
+        font-size: 13px;
+        margin: 20px 0 10px;
+        font-style: sans-serif;
+        font-size: medium;
+        color: white;
+      }
+
+      button {
+        display: block;
+        margin: 20px auto;
+        background-color: #686fb0;
+        color: white;
+        font-size: 18px;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 6px;
+        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        opacity: 0.9;
+        cursor: pointer;
+      }
+      a:visited {
+        text-decoration: none;
+        color: #5a67d8;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 15px 60px;
+      }
+      .learn-more {
+        text-decoration: none;
+        color: #5a67d8;
+        font-size: 12px;
+        font-weight: bold;
+      }
+      .learn-more:hover {
+        text-decoration: underline;
+      }
+      .footer {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Girls can be gamers too!</h1>
+      <h2>The positives of being a female gamer 🎮</h2>
+      <img
+        src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ee3ea1a1-fc2e-4915-8574-930cb85ee315/deyg272-ab691f2a-f916-4be7-a15c-82c6763fe99c.png/v1/fit/w_828,h_746/sakura_futaba_in_live_streamming_by_ab_dragonfist7777_deyg272-414w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzA2MCIsInBhdGgiOiJcL2ZcL2VlM2VhMWExLWZjMmUtNDkxNS04NTc0LTkzMGNiODVlZTMxNVwvZGV5ZzI3Mi1hYjY5MWYyYS1mOTE2LTRiZTctYTE1Yy04MmM2NzYzZmU5OWMucG5nIiwid2lkdGgiOiI8PTM0MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.wyz8tpCH-CoBMAyouIp2O8P1_AZvMhIFXhD5KlFeNmg"
+        alt="Female gamer in a gaming seat, gaming on a PC"
+      />
+      <p>
+        As a girl who is addicted to gaming, I deeply know and feel some of the
+        pros and cons of being a girl gamer. Online games are such a popular
+        genre especially in this century, almost all of us enjoys gaming. The
+        advantages of being a gamer girl is that many people or I should say
+        gamers want to play with you, hence getting carried by some of them as
+        well. I am telling you guys, getting carried is such a nice feeling,
+        that feeling that you are safe to do anything you want without any
+        consequences, isn’t a feeling like that so uplifting to experience? it’s
+        like you’re a kid not giving a care in the world because someone is
+        taking care of it for you. It might feel wrong because you are making it
+        difficult for that other person who Is there for you but don’t worry, I
+        know you are doing your absolute best to help that person! Nothing is
+        more fun than giving your best in a game without exhibiting toxic
+        behaviors!
+        <br />
+      </p>
+      <a
+        href="https://lifestyle.allwomenstalk.com/benefits-of-being-a-gamer-girl/#:~:text=9%20Benefits%20of%20Being%20a%20Gamer%20Girl%20...,...%208%208%20Improved%20Coordination%20...%20More%20items"
+        target="_blank"
+        class="learn-more"
+      >
+        Learn more on Wikipedia</a
+      >
+      <button class="buy-button">👉 Buy Call Of Duty Modern Warefare2</button>
+      <p class="footer">
+        This page was coded by Karima Akmath Krishna, which is
+        <a href="https://github.com/karimaAkmath/SheCodes-yogurt-project/new/main"
+          >open-sourced on GitHub</a
+        >
+      </p>
+    </div>
+
+    <script>
+      function buy() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email?");
+        let emoji = prompt("What is your favourite emoji?");
+
+        if (name.length > 0) {
+          alert(`Thank you, ${name}! 
+        We'll be in touch by email, meanwhile play a game or 2 ! ${emoji}`);
+        } else {
+          alert("No name & email, no COD 🤷🏽‍♀️🎮");
+        }
+      }
+
+      let buyButton = document.querySelector(".buy-button");
+      buyButton.addEventListener("click", buy);
+    </script>
+  </body>
+</html>
